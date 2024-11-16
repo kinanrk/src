@@ -30,7 +30,7 @@ def draw_packing_with_rulers(packer):
     # إذا كان لدينا لوح واحد فقط، نضعه في قائمة ليسهل التعامل معه
     if num_bins == 1:
         axes = [axes]
-    
+     
     for i, bin in enumerate(packer):
         ax = axes[i]
         ax.set_xlim(0, bin_width)
